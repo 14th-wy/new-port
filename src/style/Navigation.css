@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Orbitron&family=PT+Mono&family=Rubik+Glitch&display=swap');
+
+@media (min-width: 768px) { 
+    .myNav {
+        padding-top: 40px!important;
+        padding-bottom: 40px!important;
+    }
+ }
+
+ 
+ :root {
+    --changa : font-family: 'Changa', sans-serif;
+    --obitron : font-family: 'Orbitron';
+    --mono : font-family: 'PT Mono', monospace;
+    --new :    font-family: 'Rubik Glitch', cursive;
+    --primary-dark : #000;
+    --primary-white : rgb(255, 255, 255);
+   --primary-tomato : tomato;
+ }
+
+ .myBrand {
+    font-family: 'Orbitron';
+    font-size: 24px;
+    font-weight: 800;
+ }
+
+.myLink {
+    font-family: 'Orbitron';
+    font-size: 18px!important;
+    font-weight: 700!important;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--primary-dark);
+
+}
+
+.myLink > .link {
+    border-bottom: 4px solid transparent;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--primary-dark);
+}
+
+.myLink > .link:hover {
+    border-bottom: 4px solid var(--primary-dark);
+    color: var(--primary-dark);
+    transition: 2s ease-in-out;
+}
