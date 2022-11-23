@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation';
-import Home from './components/Home';
+import Routed from './components/Routed';
+import { motion } from 'framer-motion';
 
 
 function App() {
@@ -7,10 +8,7 @@ function App() {
     <div>
       <div>
         <Navigation/>
-      </div>
-
-      <div>
-        <Home/>
+        <Routed/>
       </div>
     </div>
   );

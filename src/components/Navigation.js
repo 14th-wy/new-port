@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../style/Navigation.css';
+import About from './About';
+import { Routes, Route, Link } from 'react-router-dom';
 
 export default function Navigation() {
   return (
@@ -11,21 +13,21 @@ export default function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className='myLink'>
-                    <Nav.Link className='link'>
+                    <Link to='/' className='link'>
                         Home
-                    </Nav.Link>
-                    <Nav.Link className='link'>
+                    </Link>
+                    <Link to='/about' className='link'>
                         About
-                    </Nav.Link>
-                    <Nav.Link className='link'>
+                    </Link>
+                    <Link className='link'>
                         Project
-                    </Nav.Link>
-                    <Nav.Link className='link'>
+                    </Link>
+                    <Link className='link'>
                         Resume
-                    </Nav.Link>
-                    <Nav.Link className='link'>
+                    </Link>
+                    <Link className='link'>
                         Contact
-                    </Nav.Link>
+                    </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
