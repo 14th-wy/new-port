@@ -10,18 +10,107 @@
    /* --primary-white : rgb(255, 255, 255); */
 }
 
+@media (max-width: 768px) {
+    .myAbout {
+    padding-left: 5vh!important;
+    /* padding-bottom: 10vh; */
+    }
+
+    ul > li > a.aSecond {
+        margin-right: 0;
+        display: flex;
+        flex-direction: row;
+        float: none!important;
+    }
+
+    ul > li > p.textPharagraph {
+        margin-right:5vh!important;
+    }
+
+ }
+
 .myAbout {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: var(--primary-white);
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding-top: 40vh;
+    padding-top: 30vh;
     padding-left: 20vh;
+    padding-bottom: 10vh;
 }
 
-h1 {
+h1, h3 {
     font-family: 'Rubik Glitch', cursive;
     text-shadow: tomato 3px 0px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+h3.h3 {
+    margin-top: 10vh;
+}
+
+.iconmore {
+    font-size: 14;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-dark);
+    opacity: 55%;
+    font-family: 'Changa', sans-serif;
+}
+
+.iconmore:hover {
+    color: var(--primary-tomato);
+    opacity: 100%;
+}
+
+ul {
+    list-style-type: circle;
+    font-family: 'Changa', sans-serif;
+    width: 100%;
+}
+
+li:not(:first-child) {
+    margin-top: 30px;
+}
+
+ul > li > a.aFirst {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--primary-dark);
+    cursor: pointer;
+}
+
+ul > li > a.aFirst:hover {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--primary-tomato);
+}
+
+ul > li > a.aSecond {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--primary-dark);
+    float: right;
+    margin-right: 15vh;
+    cursor: pointer;
+}
+
+ul > li > a.aSecond:hover {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--primary-tomato);
+    float: right;
+    margin-right: 15vh;
+}
+
+ul > li > p.textPharagraph {
+    margin-right: 15vh;
 }
