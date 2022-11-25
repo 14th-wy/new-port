@@ -42,7 +42,7 @@
 }
 
 .myLink > .link:hover {
-    border-bottom: 4px solid var(--primary-dark);
+    border-bottom: 4px solid var(--primary-tomato);
     color: var(--primary-dark);
     transition: 2s ease-in-out;
 }

@@ -24,7 +24,7 @@ export default function Home() {
                         scale: 1.5,
                         transition: { duration: 0.5 },
                         }}
-                        whileTap={{ scale: 0.9 }} className='icon'>
+                        whileTap={{ scale: 0.9 }} className='icon' target='_blank' href='https://linkedin.in/in/wahyu-dani-s1402'>
                     <BsLinkedin/>
                     </motion.a>
                     <motion.a   
@@ -32,7 +32,7 @@ export default function Home() {
                         scale: 1.5,
                         transition: { duration: 0.5 },
                         }}
-                        whileTap={{ scale: 0.9 }} className='icon'>
+                        whileTap={{ scale: 0.9 }} className='icon' target='_blank' href='https://github.com/14th-wy'>
                     <BsGithub/>
                     </motion.a>
                     <motion.a   

@@ -19,7 +19,7 @@ export default function Navigation() {
                     <Link to='/about' className='link'>
                         About
                     </Link>
-                    <Link className='link'>
+                    <Link to='/project' className='link'>
                         Project
                     </Link>
                     <Link className='link'>
