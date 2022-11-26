@@ -16,15 +16,25 @@
     /* padding-bottom: 10vh; */
     }
 
+    ul, h1, h1.h3 {
+        left: -5vh;
+        position: relative;
+    }
+
     ul > li > a.aSecond {
-        margin-right: 0;
+        margin-right: 0!important;
         display: flex;
         flex-direction: row;
         float: none!important;
     }
 
-    ul > li > p.textPharagraph {
-        margin-right:5vh!important;
+    p.textPharagraph {
+        margin-right:3vh!important;
+    }
+
+    p.p1 {
+        position: relative;
+        left: -5vh;
     }
 
  }
@@ -33,9 +43,9 @@
     width: 100%;
     height: auto;
     background-color: var(--primary-white);
-    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     padding-top: 30vh;
     padding-left: 20vh;
     padding-bottom: 10vh;
@@ -48,12 +58,14 @@ h1, h3 {
     word-spacing: 5px;
 }
 
-h3.h3 {
+h1.h3 {
     margin-top: 10vh;
 }
 
+
 .iconmore {
-    font-size: 14;
+    font-size: 14!important;
+    font-weight: 700;
     display: block;
     text-decoration: none;
     cursor: pointer;
@@ -111,6 +123,6 @@ ul > li > a.aSecond:hover {
     margin-right: 15vh;
 }
 
-ul > li > p.textPharagraph {
+p.textPharagraph {
     margin-right: 15vh;
 }

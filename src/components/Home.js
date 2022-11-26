@@ -4,6 +4,7 @@ import { BsLinkedin, BsGithub, BsBoxArrowInRight } from "react-icons/bs";
 import { BiMailSend } from "react-icons/bi";
 import { Routes, Route, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { AiTwotoneHeart } from 'react-icons/ai';
 
 export default function Home() {
     return (
@@ -16,7 +17,11 @@ export default function Home() {
             <Container>
                 <h1 className='name'>I'm Wahyu Dani Saputra</h1>
                 <p>
-                    Full Stack Developer, UI/UX and Mobile Enthusiast, ReactJS. PHP Engineer
+                    Full Stack Developer, UI/UX and Mobile Enthusiast, ReactJS, PHP Engineer, Practicing Minimalist.
+                    <br/>
+                    i'm passionate about make a beautiful things happen, interfaces and intuitively implemented both UI and UX.
+                    <br/>
+                    I love what i do.<small><AiTwotoneHeart/></small>
                 </p>
                 <div className='icons'>
                     <motion.a   

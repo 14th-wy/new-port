@@ -34,6 +34,10 @@
 
 }
 
+.active {
+    display: none;
+}
+
 .myLink > .link {
     border-bottom: 4px solid transparent;
     margin-right: 1rem;

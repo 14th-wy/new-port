@@ -17,6 +17,11 @@ export default function about() {
         >
             <Container>
             <h1>ABOUT ME.</h1>
+            <p className='textPharagraph p1'>
+                Born in Bekasi, Indonesia.
+                <br/>
+                20y.o person with experience on web programming also a little bit on mobile programming, i'm love to making magic things happen on my work, an minimalist design also on my interests.
+            </p>
                 <ul>
                     <li>
                         <a className='aFirst' target='_blank' href='https://github.com/14th-wy'>Engineering <small><BsGithub/></small></a>
@@ -41,13 +46,13 @@ export default function about() {
                     </li>
                 </ul>
 
-            <h3 className='h3'>My Skills</h3>
+            <h1 className='h3'>My Skills</h1>
                 <ul>
                     <li>
                         <a className='aFirst' href='https://codeigniter.com/' target='_blank'>
                             CodeIgniter3 <small><DiCodeigniter/></small>
                         </a>
-                        <a className='aSecond'><small><BsFillCalendar2WeekFill/></small> Nov 2021 - Apr 2022 </a>
+                        {/* <a className='aSecond'><small><BsFillCalendar2WeekFill/></small> Nov 2021 - Apr 2022 </a> */}
                         <p className='textPharagraph'>
                             I have on experience build an web application based on framework called CodeIgniter3, this an framework PHP which so much populer on PHP Developer, and this framework using MVC Consept.
                             I'm using this framework on my internship program with PT. Denso Manufacturing Indonesia when i'm still studying on my campus.
@@ -57,7 +62,7 @@ export default function about() {
                         <a className='aFirst' href='https://codeigniter.com/' target='_blank'>
                             CodeIgniter4 <small><DiCodeigniter/></small>
                         </a>
-                        <a className='aSecond'><small><BsFillCalendar2WeekFill/></small> 2022 </a>
+                        {/* <a className='aSecond'><small><BsFillCalendar2WeekFill/></small> 2022 </a> */}
                         <p className='textPharagraph'>
                             I have on experience build an web application based on framework called CodeIgniter4, this also framework PHP which so much populer on PHP Developer, and this framework using MVC Consept.
                             I'm using this framework on my freelance project.
@@ -67,9 +72,9 @@ export default function about() {
                         <a className='aFirst' href='https://reactjs.org/' target='_blank'>
                             ReactJS <small><FaReact/></small>
                         </a>
-                        <a className='aSecond'><small><BsFillCalendar2WeekFill/></small> Currently </a>
+                        {/* <a className='aSecond'><small><BsFillCalendar2WeekFill/></small> Currently </a> */}
                         <p className='textPharagraph'>
-                            Learning something great new, i'm now on my way to learn ReactJS. An library to make powerfull website with Javascripts, such an beautiful technology. I'm in love with this, and i'm will not stop on this technology. Just keep it up. fyi, this portfolio website come from with ReactJS
+                            Learning something great new, i'm now on my way to learn ReactJS. An library to make powerfull website with Javascripts, such an beautiful technology. I'm in love with this, and i will not stop on this technology. Just keep it up. fyi, this portfolio website come from with ReactJS
                         </p>
                     </li>
                 </ul>
